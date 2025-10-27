@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int x = 10;
-    int* p = &x; // coz addresss is a type int*
+    int* p = &x; // coz addresss is a type int* $$
     int ** q = &p;
 
 
