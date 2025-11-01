@@ -10,7 +10,7 @@ public:
         int size = nums.size();
         sort(nums.begin(), nums.end());
 
-        for(int i=0; i<size;i++){
+        for(int i=0; i<size-2;i++){
             if(i > 0 && nums[i] == nums[i-1]) continue;
 
             int j= i+1;
