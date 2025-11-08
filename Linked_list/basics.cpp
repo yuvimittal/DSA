@@ -1,7 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/*
 
+head -> [10] -> [20] -> NULL
+if(head) = true;
+if(head->next) = true
+if(head->next->next) = NULL
+
+*/
 struct Node{
 	int data;
 	Node* next;
@@ -64,12 +71,10 @@ int main(){
 	Node* temp = first;
 
 	while(temp != NULL){
-		cout<<temp->data<<" :"<<temp<<endl; //0,10,30,40 and their address
-		cout<<third->next<<endl; //address of 40 
+		cout<<temp->data<<" : "<<temp<<endl; //0,10,30,40 and their address
 		temp= temp->next;
 	}
-
-	cout<<third->next->next<<endl; //null 
+		cout<<third->next->next<<endl; //null 
 
 	return 0;
 
