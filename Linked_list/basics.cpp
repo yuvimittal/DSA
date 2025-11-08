@@ -49,7 +49,7 @@ void deleteNode(Node* &head, int val) {		// when we call this it becomes head->n
 int main(){
 	Node* third = new Node(30);
 	Node* second = new Node(20,third);
-	Node* first = new Node(10,second);
+	Node* first = new Node(10,second); //first is a node that stores the address of value 10 and pointer to second
 
 	// first->data = 10;
 	// first->next= second;
@@ -60,18 +60,16 @@ int main(){
 
 	insertbeginning(first, 0);
 	insertAtEnd(first, 40);
-	insertAtEnd(third, 50);
 	deleteNode(first, 20);
-	// cout<<first->data <<endl;
-
 	Node* temp = first;
 
 	while(temp != NULL){
-		cout<<temp->data<<endl;
+		cout<<temp->data<<" :"<<temp<<endl; //0,10,30,40 and their address
+		cout<<third->next<<endl; //address of 40 
 		temp= temp->next;
 	}
 
-	cout<<first<<endl;
+	cout<<third->next->next<<endl; //null 
 
 	return 0;
 
