@@ -210,10 +210,3 @@ Database programming focuses on **data querying and manipulation** rather than a
 
 ---
 
-If you want, I can:
-
-* compare paradigms with real-world examples
-* map languages to paradigms
-* explain why modern languages are multi-paradigm
-
-Just say 👍
