@@ -210,3 +210,5 @@ Database programming focuses on **data querying and manipulation** rather than a
 
 ---
 
+Structured Programming refers to the method of programming which consists of a completely structured control flow. Here structure refers to a block, which contains a set of rules, and has a definitive control flow, such as (if/then/else), (while and for), block structures, and subroutines.
+
